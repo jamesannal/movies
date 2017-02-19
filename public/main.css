@@ -1,0 +1,60 @@
+body{
+  background: url("http://static4.uk.businessinsider.com/image/572b497ddd0895525f8b4714-1200/film-cameras-such-as-the-super-parvo-and-the-mitchell-standard-used-to-be-the-go-to-for-movie-production-these-film-cameras-needed-to-be-reloaded-frequently-when-the-film-would-run-out-film-is-very-delicate-so-even-the-smallest-scratch-could-ruin-an-entire-scene.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+}
+
+main{
+  width: 550px;
+  /*height: 650px;*/
+  margin: 0 auto;
+  background-color: ivory;
+  padding-left: 10px;
+  padding-right:10px;
+  padding-top: 5px;
+
+    
+}
+
+button{
+  width: 175px;
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 30px;
+  font-size: 15px;
+  background-color: lightblue;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+
+}
+button:hover{
+  background-color: #C1ECFA;
+  color: grey;
+  cursor: pointer;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+  font-size: 22px;
+  margin: 10px;
+}
+
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+
