@@ -17,10 +17,6 @@ var requestComplete = function(){
   var votes = moviesDetails.imdbVotes;
   var awards = moviesDetails.Awards;
   var plot = moviesDetails.Plot;
-  // console.log(moviesDetails);
-  // console.log(results);
-  // console.log(urlSpot);
-  // console.log(rated);
   populateMovies(results, urlSpot, rated, runningTime, rating, votes, awards, plot);
 }
 
